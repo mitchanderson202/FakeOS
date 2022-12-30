@@ -65,3 +65,4 @@ You will select one of the provided images, or your own as approved by a coach.
 - [What are Pure Functions and Side Effects in JavaScript?](https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript)
 # fakeOS
 # fakeOS
+# fakeOS

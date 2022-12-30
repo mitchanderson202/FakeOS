@@ -64,3 +64,4 @@ You will select one of the provided images, or your own as approved by a coach.
 - [Is Your Code DRY or WET?](https://dzone.com/articles/is-your-code-dry-or-wet#:~:text=DRY%20code%20is%20a%20software,t%20adhere%20to%20DRY%20principle.)
 - [What are Pure Functions and Side Effects in JavaScript?](https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript)
 # fakeOS
+# fakeOS

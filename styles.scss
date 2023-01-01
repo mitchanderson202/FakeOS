@@ -11,8 +11,8 @@ body {
 
 #grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(256px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(80px, 1fr));
   height: 95vh;
 }
 
@@ -40,4 +40,22 @@ body {
   width: 40px;
   object-fit: contain;
   padding-left: 10px;
+}
+
+.c-body__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+}
+
+// .c-body__icon:hover {
+//   background-color: grey;
+// }
+
+.c-body__icon__img {
+  width: 54px;
+  height: 54px;
 }

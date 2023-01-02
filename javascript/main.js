@@ -15,3 +15,22 @@ document.getElementById(
 ).innerText = `${timeString.toUpperCase()}`;
 
 document.getElementById("c-footer__date").innerText = `${day}/${month}/${year}`;
+
+// Windows Menu
+
+let windowsMenu = document.getElementById("c-footer__menu__icon");
+let menu = document.getElementById("c-windows__menu");
+
+windowsMenu.addEventListener("click", () => {
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+});
+
+// document.addEventListener("click", (event) => {
+//   if (event.target !== menu && event.target !== toggleMenuButton) {
+//     menu.style.display = "none";
+//   }
+// });

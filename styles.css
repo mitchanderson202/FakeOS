@@ -70,7 +70,7 @@ body {
 }
 
 h4 {
-  margin: 25px 10px;
+  margin: 10px 10px;
 }
 
 #c-windows__menu {
@@ -82,7 +82,7 @@ h4 {
   bottom: 5vh;
   position: absolute;
   height: 70vh;
-  width: 30vw;
+  width: 60vh;
   z-index: 2;
   margin: 10px;
 }
@@ -121,6 +121,8 @@ h4 {
   flex-wrap: wrap;
   flex-direction: row;
   list-style: none;
+  justify-content: space-between;
+  padding: 0;
 }
 
 .pinned-list-li {
@@ -140,4 +142,51 @@ h4 {
 .pinned-list-icon {
   height: 50px;
   width: 50px;
+}
+
+.recommended-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.recommended-list-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+}
+
+.recommended-list-li:hover {
+  background-color: grey;
+}
+
+.recommended-list-icon {
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+}
+
+.account-bar {
+  background-color: white;
+  align-self: flex-end;
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.off-btn {
+  height: 25px;
+  width: 25px;
 }/*# sourceMappingURL=styles.css.map */

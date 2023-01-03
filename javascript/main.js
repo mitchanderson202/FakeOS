@@ -28,9 +28,3 @@ windowsMenu.addEventListener("click", () => {
     menu.style.display = "block";
   }
 });
-
-// document.addEventListener("click", (event) => {
-//   if (event.target !== menu && event.target !== toggleMenuButton) {
-//     menu.style.display = "none";
-//   }
-// });

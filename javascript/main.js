@@ -20,6 +20,7 @@ document.getElementById("c-footer__date").innerText = `${day}/${month}/${year}`;
 
 let windowsMenu = document.getElementById("c-footer__menu__icon");
 let menu = document.getElementById("c-windows__menu");
+let body = document.querySelector("body");
 
 windowsMenu.addEventListener("click", () => {
   if (menu.style.display === "block") {

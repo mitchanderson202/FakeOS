@@ -43,7 +43,7 @@ let closeModal2 = document.getElementById("close-btn2");
 let closeModal3 = document.getElementById("close-btn3");
 
 img1.addEventListener("click", () => {
-  img1.style.border = "1px dotted grey";
+  img1.style.border = "1px dotted white";
   img2.style.border = "";
   img3.style.border = "";
 
@@ -53,7 +53,7 @@ img1.addEventListener("click", () => {
 });
 
 img2.addEventListener("click", () => {
-  img2.style.border = "1px dotted grey";
+  img2.style.border = "1px dotted white";
   img1.style.border = "";
   img3.style.border = "";
 
@@ -63,7 +63,7 @@ img2.addEventListener("click", () => {
 });
 
 img3.addEventListener("click", () => {
-  img3.style.border = "1px dotted grey";
+  img3.style.border = "1px dotted white";
   img1.style.border = "";
   img2.style.border = "";
 

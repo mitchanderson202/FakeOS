@@ -22,7 +22,7 @@ body {
 }
 
 // Body
-.c-body__icon {
+.body__icon {
   // border: 1px solid red;
   display: flex;
   justify-content: center;
@@ -34,18 +34,91 @@ body {
   position: relative;
 }
 
-// .c-body__icon:hover {
-//   background-color: grey;
-// }
-
-.c-body__icon__img {
+.body__icon__img {
   width: 54px;
   height: 54px;
 }
 
+#bin-img:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+#vscode-img:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+#steam-img:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+// Modals
+@mixin modal {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+  height: 60%;
+  width: 60%;
+  background-color: rgb(65, 64, 64);
+}
+
+.modal1 {
+  @include modal;
+}
+
+.modal2 {
+  @include modal;
+}
+
+.modal3 {
+  @include modal;
+}
+
+// .modal-wrapper {
+
+// }
+
+.modal__top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(90, 89, 89);
+
+  h5 {
+    margin-left: 10px;
+  }
+}
+
+.close-btn {
+  height: 25px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.close-btn:hover {
+  background-color: red;
+}
+
+.modal__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  p {
+    padding: 10px;
+  }
+
+  img {
+    object-fit: contain;
+    height: 400px;
+  }
+}
+
 // Footer
 
-.c-footer {
+.footer {
   border-top: 1px solid rgb(90, 89, 89);
   background-color: inherit;
   backdrop-filter: blur(10px);
@@ -59,19 +132,19 @@ body {
   align-items: center;
 }
 
-.c-footer__right {
+.footer__right {
   text-align: end;
   padding-right: 10px;
 }
 
-#c-footer__menu__icon {
+#footer__menu__icon {
   height: 40px;
   width: 40px;
   object-fit: contain;
   margin-left: 10px;
 }
 
-#c-footer__menu__icon:hover {
+#footer__menu__icon:hover {
   background-color: grey;
   cursor: pointer;
 }
@@ -82,7 +155,7 @@ h4 {
   margin: 10px 10px;
 }
 
-#c-windows__menu {
+#windows__menu {
   display: none;
   position: absolute;
   border: 1px solid rgb(90, 89, 89);
@@ -96,12 +169,12 @@ h4 {
   margin: 10px;
 }
 
-.c-windows__menu__flex-wrapper {
+.windows__menu__flex-wrapper {
   display: flex;
   flex-direction: column;
   margin: 5%;
 }
-.c-windows__menu__search {
+.windows__menu__search {
   border-bottom: 2px solid blue;
   background-color: white;
   display: flex;
@@ -120,7 +193,7 @@ h4 {
   color: black;
 }
 
-.c-windows__menu__pinned {
+.windows__menu__pinned {
   margin-top: 15px;
 }
 

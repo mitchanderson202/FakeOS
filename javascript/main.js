@@ -113,3 +113,7 @@ img3.addEventListener("dblclick", () => {
   img1.style.background = "";
   img3.style.background = "";
 });
+
+// reading
+//  https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/getData
+// https://www.w3schools.com/html/html5_draganddrop.asp#:~:text=In%20HTML%2C%20any%20element%20can%20be%20dragged%20and%20dropped.

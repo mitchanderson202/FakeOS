@@ -18,7 +18,7 @@ document.getElementById("footer__date").innerText = `${day}/${month}/${year}`;
 
 // Windows Menu
 
-let windowsMenu = document.getElementById("footer__menu__icon");
+let windowsMenu = document.getElementById("footerMenuIcon");
 let menu = document.getElementById("windows__menu");
 let body = document.querySelector("body");
 
@@ -32,9 +32,9 @@ windowsMenu.addEventListener("click", () => {
 
 // Desktop Items
 
-let img1 = document.getElementById("bin-img");
-let img2 = document.getElementById("steam-img");
-let img3 = document.getElementById("vscode-img");
+let img1 = document.getElementById("binImg");
+let img2 = document.getElementById("steamImg");
+let img3 = document.getElementById("vscodeImg");
 let modal1 = document.querySelector(".modal1");
 let modal2 = document.querySelector(".modal2");
 let modal3 = document.querySelector(".modal3");

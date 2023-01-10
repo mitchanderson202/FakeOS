@@ -30,20 +30,20 @@ body {
   position: relative;
 }
 
-.body__icon__img {
+.body__icon--img {
   width: 54px;
   height: 54px;
 }
 
-#bin-img:hover {
+#binImg:hover {
   background-color: rgb(112, 112, 112);
 }
 
-#vscode-img:hover {
+#vscodeImg:hover {
   background-color: rgb(112, 112, 112);
 }
 
-#steam-img:hover {
+#steamImg:hover {
   background-color: rgb(112, 112, 112);
 }
 
@@ -67,6 +67,8 @@ body {
   height: 60%;
   width: 60%;
   background-color: rgb(65, 64, 64);
+  top: 25%;
+  left: 25%;
 }
 
 .modal3 {
@@ -78,6 +80,8 @@ body {
   height: 60%;
   width: 60%;
   background-color: rgb(65, 64, 64);
+  top: 30%;
+  left: 30%;
 }
 
 .modal__top-bar {
@@ -148,7 +152,7 @@ body {
   padding-right: 10px;
 }
 
-#footer__menu__icon {
+#footerMenuIcon {
   height: 40px;
   width: 40px;
   -o-object-fit: contain;
@@ -156,7 +160,7 @@ body {
   margin-left: 10px;
 }
 
-#footer__menu__icon:hover {
+#footerMenuIcon:hover {
   background-color: grey;
   cursor: pointer;
 }
@@ -180,13 +184,13 @@ h4 {
   margin: 10px;
 }
 
-.windows__menu__flex-wrapper {
+.windows__menu--flex-wrapper {
   display: flex;
   flex-direction: column;
   margin: 5%;
 }
 
-.windows__menu__search {
+.windows__menu--search {
   border-bottom: 2px solid blue;
   background-color: white;
   display: flex;
@@ -205,7 +209,7 @@ h4 {
   color: black;
 }
 
-.windows__menu__pinned {
+.windows__menu--pinned {
   margin-top: 15px;
 }
 
@@ -218,7 +222,7 @@ h4 {
   padding: 0;
 }
 
-.pinned-list-li {
+.pinned-list--li {
   height: 80px;
   width: 80px;
   display: flex;
@@ -228,11 +232,11 @@ h4 {
   align-items: center;
 }
 
-.pinned-list-li:hover {
+.pinned-list--li:hover {
   background-color: grey;
 }
 
-.pinned-list-icon {
+.pinned-list--icon {
   height: 50px;
   width: 50px;
 }
@@ -245,7 +249,7 @@ h4 {
   padding: 0;
 }
 
-.recommended-list-li {
+.recommended-list--li {
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -254,11 +258,11 @@ h4 {
   height: 50px;
 }
 
-.recommended-list-li:hover {
+.recommended-list--li:hover {
   background-color: grey;
 }
 
-.recommended-list-icon {
+.recommended-list--icon {
   height: 40px;
   width: 40px;
   padding-left: 10px;
@@ -291,24 +295,24 @@ h4 {
   border-radius: 50%;
 }
 
-.account-bar-left-side {
+.account-bar--left-side {
   display: flex;
   align-items: center;
   margin: 10px;
   padding: 10px;
 }
 
-.account-bar-left-side:hover {
+.account-bar--left-side:hover {
   background-color: grey;
 }
 
-.account-bar-right-side {
+.account-bar--right-side {
   display: flex;
   align-items: center;
   margin: 10px;
   padding: 10px;
 }
 
-.account-bar-right-side:hover {
+.account-bar--right-side:hover {
   background-color: gray;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,30 +1,25 @@
-# Project: FakeOS
+# Project: FakeOS - Windows 11
 
 ## Overview
 
-The goal of this project is to have students explore and consolidate their understandings of HTML, CSS and JavaScript.
-This project will require you to replicate the layout and format of a design/image using CSS, add content via HTML and control the interactive elements via JavaScript.\
+For Nology, we we're taksed an assignemnt for a FakeOS. This is a replica of my own desktop. The project required 3 desktop items which open up a modal containing something. Currently I have a text box, an image and some links to my Github and LinkedIn. The project only works in a desktop style format, (will not scale down to Tablet or Mobile). The goal was to create a SPA(Single Page Application), that fits a viewport, selectable icons that open up a modal, modals close, a selectable menu that opens to show icons and the time/date available on the screen.
+Overall this was a fun and challenging project, I look forward to building upon the features.
 
-### The design is going to be that of an operating system.
+## Links
 
-Please look at the provided image gallery for examples.
-You should choose either a portrait (mobile) or landscape (desktop) operating system, you are not expected to create a responsive page that works on both, however it should look good on the chosen orientation at different resolutions/ratios.
-You will select one of the provided images, or your own as approved by a coach.
+Check it out here:
+https://mitchanderson202.github.io/fakeOS/
 
-### Features
+Repository:
+https://github.com/mitchanderson202/fakeOS
 
-- You will be creating an SPA (Single Page Application)
-- Desktop has a wallpaper that fits the viewport
-- There will be selectable icons
-- Selecting an icon will open an "app", creating a _modal_ to display some content
-- Able to close an app
-- There will be a selectable menu
-- Selecting the menu will display a list of text and icons
-- The current time is displayed somewhere
+## Tech Stack
+
+- HTML
+- SCSS
+- JavaScript
 
 ## MVP:
-
-### HTML/SCSS
 
 - Wallpaper scales to fit the viewport
 - Minimum 3 icons on desktop
@@ -32,38 +27,21 @@ You will select one of the provided images, or your own as approved by a coach.
 - Apps look consistent
 - Menu contains a flex with content inside it
 - Apps should be able to contain text, an image or a form
-
-### JavaScript
-
-- Put your js code into separate files
 - Your icons and menu should add event listener for the click event, don't use the html onclick attribute
 - Give your functions and variables good names
 - Use the arrow syntax to declare functions
 
-### Github
+## Updates required:
 
-- Create a repo on github with a README
-- Clone Repo
-- Create and checkout develop branch
-- Push all changes to your develop branch
-- When submitting create a pull request from develop into main for review
-- Add coach as a reviewer
+- The Modals don't currently replicate a Windows file.
+- There's a set order in how the modals open.
+- Click anywhere to exit the Windows menu.
+- Icons showing on Windows bar next to Windows menu button when open.
+- Changing all dummy text, mainlt the Lorem inside the Text-Box.
+- Refactor JS code to better functions. Currently I have hard-coded things like removing borders and backgrounds.
 
-## Hints
+## Longer Goals:
 
-- Split your js logic/data modules from your js DOM modules
-- Look at the position css property, specifically _fixed_ and _absolute_
-- Pay attention to your hierarchy of elements in your html
-- Create your modals using JS and DOM interaction
-- Make your life easy! You don't need to recreate everything, just do the features and mvp mentioned above
-
-### Useful Resources:
-
-- [Cutting a Monster Project Down to a Manageable Size](https://www.informit.com/articles/article.aspx?p=2153472)
-
-- [Is Your Code DRY or WET?](https://dzone.com/articles/is-your-code-dry-or-wet#:~:text=DRY%20code%20is%20a%20software,t%20adhere%20to%20DRY%20principle.)
-- [What are Pure Functions and Side Effects in JavaScript?](https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript)
-# fakeOS
-# fakeOS
-# fakeOS
-# fakeOS
+- Remove all Spotify dummy text and replace with different icons that open up.
+- Scale into a mobile view.
+- Drag and Drop all desktop items.

@@ -1,25 +1,15 @@
-# Project: FakeOS - Windows 11
+# Fake OS - Windows 11
 
-## Overview
+## Demo & Snippets
+<img width="427" alt="Windows-Menu" src="https://user-images.githubusercontent.com/78459081/225546258-6784c384-2f05-4ad3-bf81-adfed78aa93e.png">
+<img width="1229" alt="Modal" src="https://user-images.githubusercontent.com/78459081/225546275-23f97268-8b4a-42f7-892e-52c72cf1014c.png">
+<img width="1268" alt="Desktop-Icons" src="https://user-images.githubusercontent.com/78459081/225546280-471454ef-d250-4525-a0e2-bafac5a88987.png">
 
-For Nology, we we're taksed an assignemnt for a FakeOS. This is a replica of my own desktop. The project required 3 desktop items which open up a modal containing something. Currently I have a text box, an image and some links to my Github and LinkedIn. The project only works in a desktop style format, (will not scale down to Tablet or Mobile). The goal was to create a SPA(Single Page Application), that fits a viewport, selectable icons that open up a modal, modals close, a selectable menu that opens to show icons and the time/date available on the screen.
-Overall this was a fun and challenging project, I look forward to building upon the features.
 
-## Links
 
-Check it out here:
-https://mitchanderson202.github.io/fakeOS/
+---
 
-Repository:
-https://github.com/mitchanderson202/fakeOS
-
-## Tech Stack
-
-- HTML
-- SCSS
-- JavaScript
-
-## MVP:
+## Requirements
 
 - Wallpaper scales to fit the viewport
 - Minimum 3 icons on desktop
@@ -31,17 +21,53 @@ https://github.com/mitchanderson202/fakeOS
 - Give your functions and variables good names
 - Use the arrow syntax to declare functions
 
-## Updates required:
+## Links
+Check it out here:
+https://mitchanderson202.github.io/fakeOS/
 
-- The Modals don't currently replicate a Windows file.
-- There's a set order in how the modals open.
-- Click anywhere to exit the Windows menu.
-- Icons showing on Windows bar next to Windows menu button when open.
-- Changing all dummy text, mainlt the Lorem inside the Text-Box.
-- Refactor JS code to better functions. Currently I have hard-coded things like removing borders and backgrounds.
+Repository:
+https://github.com/mitchanderson202/fakeOS
 
-## Longer Goals:
+## Stack
 
-- Remove all Spotify dummy text and replace with different icons that open up.
-- Scale into a mobile view.
-- Drag and Drop all desktop items.
+- HTML
+- SCSS
+- JavaScript
+
+---
+
+## Build Steps
+
+- git clone https://github.com/mitchanderson202/fakeOS
+- use live server to open in browser
+
+---
+
+## Design Goals
+
+- Re-create Windows 11(Current operating system at the time).
+- I've always had that fluorescent mushroom backround, had to find a way to get a windows bar with live date & time.
+- The windows button needs to open a menu showing profile and more icons.
+- Click on an icon to open a "modal"
+
+---
+
+
+## Known issues
+
+- The modals open as a set position, height and index.
+- Clicking away from the windows menu doesn't shut it down.
+
+---
+
+## Future Goals
+
+- I would love to make all the modals moveable, sizeable and open on top if they're the most recent clicked. Just like the real Windows OS.
+- Click anywhere to drop the Windows Menu.
+- Add new windows icons with better information.
+
+---
+
+## Change logs
+
+- 16/03/23. Updated Readme.
